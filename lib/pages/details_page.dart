@@ -19,20 +19,19 @@ class DetailPage extends StatelessWidget {
           gradient: LinearGradient(
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
-              colors: [Color(0xFF0B1D76), Colors.purple])),
+              colors: [Color(0xFF303F9F), Color(0xFF3F51B5)])),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
-          title: Center(
-              child: Text(
+          title: Text(
             country.name,
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 25,
             ),
-          )),
+          ),
         ),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
